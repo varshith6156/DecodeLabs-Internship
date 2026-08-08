@@ -1,51 +1,70 @@
 # Project 1 – Environmental Monitoring System
 
-## 📌 Overview
+## Overview
 
-This project is an IoT-based Environmental Monitoring System developed as part of the DecodeLabs Industrial Training Program.
+This project is an **IoT-based Environmental Monitoring System** developed as part of the **DecodeLabs Industrial Training Program**.
 
-The system collects environmental data using sensors and displays the readings in real time. It helps monitor the surrounding environment and demonstrates the basic working of IoT sensors, microcontrollers, and data monitoring.
+The main idea of this project is simple — the system uses sensors to collect information about the surrounding environment and displays the readings in real time.
 
-## 🎯 Objective
+It helps us understand how **sensors, microcontrollers, and IoT concepts** work together to monitor environmental conditions.
 
-The main objective of this project is to:
+## Objective
 
-- Collect environmental data using sensors.
-- Process the sensor readings using a microcontroller.
-- Display the collected data.
-- Understand the basic working of an IoT monitoring system.
+The main objective of this project is to build a simple monitoring system that can:
 
-## 🛠️ Technologies Used
+* Collect environmental data using sensors.
+* Read and process the sensor values using a microcontroller.
+* Display the collected readings.
+* Continuously monitor the environment.
+* Understand the basic working of an IoT-based monitoring system.
 
-- Arduino / ESP-based microcontroller
-- Sensors
-- Arduino IDE
-- C/C++
-- IoT concepts
-- Wokwi for simulation
+## Technologies Used
 
-## ⚙️ Working
+* Arduino / ESP-based Microcontroller
+* Environmental Sensors
+* Arduino IDE
+* C/C++
+* IoT Concepts
+* Wokwi Simulator
 
-1. The sensors collect environmental data.
-2. The microcontroller reads the sensor values.
-3. The collected values are processed.
-4. The readings are displayed for monitoring.
-5. The system continuously updates the sensor data.
+## How It Works
 
-## 🔧 Hardware Components
+The working of the project is pretty straightforward:
 
-- Microcontroller
-- Environmental sensors
-- Connecting wires
-- Breadboard
-- Power supply
+1. The **sensors** collect data from the surrounding environment.
+2. The **microcontroller** reads the sensor values.
+3. The collected data is processed by the microcontroller.
+4. The readings are displayed for easy monitoring.
+5. The system keeps updating the values continuously.
 
-## 💻 Software
+### Working Flow
 
-- Arduino IDE
-- Wokwi Simulator
+```text
+Environmental Sensors
+        ↓
+   Microcontroller
+        ↓
+   Data Processing
+        ↓
+   Display Readings
+        ↓
+ Continuous Monitoring
+```
 
-## 📂 Project Files
+## Hardware Components
+
+* Microcontroller
+* Environmental Sensors
+* Breadboard
+* Connecting Wires
+* Power Supply
+
+## Software
+
+* Arduino IDE
+* Wokwi Simulator
+
+## Project Files
 
 ```text
 Project-1
@@ -55,3 +74,10 @@ Project-1
 └── screenshots
     ├── wokwi.png
     └── output.png
+```
+
+## Project Outcome
+
+This project gave us a basic understanding of how an **IoT monitoring system** works — from collecting sensor data to processing and displaying it in real time.
+
+It also helped us get familiar with **microcontrollers, sensors, Arduino programming, and Wokwi simulation**.
